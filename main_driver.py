@@ -3,7 +3,7 @@
 # @Author: sidmishraw
 # @Date:   2017-01-21 00:22:26
 # @Last Modified by:   Sidharth Mishra
-# @Last Modified time: 2017-02-03 23:26:21
+# @Last Modified time: 2017-02-04 01:12:07
 
 
 from flask import Flask
@@ -12,7 +12,6 @@ from flask import render_template
 from flask import url_for
 from flask import abort
 from core import service
-
 import os
 
 
