@@ -6,10 +6,10 @@ from json import JSONDecoder
 from json import JSONEncoder
 
 
-# the following global dicts are going to act as temporary datastores that
+# service.py
 # will be used to store the data.
 # I will move this to a DB once I'm sure of the schema.
-user_dict = {'admin':'admin', 'manager':'pass123', 'employee':'employee'}
+user_dict = {'admin':'admin', 'manager':'pass123', 'employee':'pass1234'}
 global_dict= {}
 tasks_dict = {}
 

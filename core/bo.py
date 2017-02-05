@@ -3,7 +3,7 @@
 # @Author: Sidharth Mishra
 # @Date:   2017-01-21 00:40:06
 # @Last Modified by:   Sidharth Mishra
-# @Last Modified time: 2017-02-04 13:58:44
+# @Last Modified time: 2017-02-04 20:15:02
 
 
 '''
@@ -77,7 +77,7 @@ class Task(object):
 
 
   def __init__(self, taskId, task_name, description, setup_date, \
-    completion_date, task_setter, assigned_to, is_complete = False):
+    completion_date, task_setter, assigned_to, is_complete = False, deadline_date = None):
     '''
     Initializes a task that is assigned to an employee by their manager.
     '''
@@ -90,5 +90,6 @@ class Task(object):
     self.is_complete = is_complete
     self.task_setter = task_setter
     self.assigned_to = assigned_to
+    self.deadline_date = deadline_date
 
 
